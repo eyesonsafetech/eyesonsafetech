@@ -1,41 +1,41 @@
-# How to Setup Your Modern GitHub Organization Profile
+# How to Setup Your EyesOn SafeTech GitHub Profile
 
-This guide explains how to publish the **EyesOn SafeTech** profile on GitHub in under 2 minutes.
+This package contains your modern corporate portfolio designed specifically for GitHub with **automatic Dark & Light theme switching**.
 
 ---
 
-### Option 1: GitHub Organization Profile (Recommended)
-If your GitHub account is an **Organization** (e.g. `github.com/EyesOnSafeTech`):
+### Key Highlights
+- **Automatic GitHub Theme Switching:** Uses native GitHub `<picture>` tags to automatically display the Dark Mode assets for users in Dark Mode, and Light Mode assets for users in Light Mode.
+- **Dark Theme by Default:** Optimized for deep sleek tech aesthetic (`#040914` to `#0d1117`).
+- **No AI Bento Clichés:** Clean, human editorial design without template boxes or arbitrary 01, 02, 03 badges.
+- **Interactive Local Preview:** Open `preview.html` on your Desktop to toggle between Dark and Light mode with 1 click before publishing.
 
-1. On GitHub, create a **public repository** named `.github`.
-2. Inside that repository, create a folder named `profile`.
+---
+
+### Step-by-Step Setup on GitHub (Under 2 Minutes)
+
+#### If your account is a GitHub Organization (e.g. `github.com/EyesOnSafeTech`):
+1. Create a public repository named **`.github`**.
+2. Inside that repository, create a directory called **`profile`**.
 3. Upload:
-   - The `README.md` file into `.github/profile/README.md`.
-   - The `assets/` folder into `.github/profile/assets/`.
-4. Done! When anyone visits `https://github.com/EyesOnSafeTech`, this modern portfolio will be displayed on your organization's homepage.
+   - `README.md` to `.github/profile/README.md`
+   - The entire `assets/` folder to `.github/profile/assets/`
+4. Commit and push. GitHub will immediately render this portfolio on your organization's homepage.
 
----
-
-### Option 2: Company Account / Special Profile Repository
-If you are using a standard GitHub account or want the profile in a dedicated showcase repo:
-
-1. Create a public repository named exactly the same as your GitHub username/organization (e.g. `eyeson-safetech`).
-2. Upload the `README.md` and the `assets/` folder directly to the root of that repository.
+#### If your account is a company user account:
+1. Create a public repository with the exact same name as your GitHub username.
+2. Upload `README.md` and the `assets/` folder directly to the root of that repository.
 3. Commit and push.
 
 ---
 
-### Assets Included in `assets/`:
-- `hero-banner.svg`: 1200×420 px glowing cyber lattice header banner with genuine logo.
-- `architecture-workflow.svg`: 1100×280 px 4-stage sovereign engineering pipeline.
-- `stats-banner.svg`: 1100×140 px key performance metrics and SLAs.
-- `capability-product.svg`: Product engineering competency card.
-- `capability-security.svg`: Embedded cybersecurity competency card.
-- `capability-velocity.svg`: Execution velocity competency card.
-- `macbook-soc-dashboard.png`: High-res SOC dashboard mockup.
-- `executive-desk-laydown.png`: Photorealistic corporate collateral laydown.
+### Asset Inventory in `assets/`:
+- `banner-dark.svg`: Widescreen master hero banner (Dark mode).
+- `banner-light.svg`: Widescreen master hero banner (Light mode).
+- `pipeline-dark.svg`: Security-embedded engineering lifecycle diagram (Dark mode).
+- `pipeline-light.svg`: Security-embedded engineering lifecycle diagram (Light mode).
+- `macbook-soc-dashboard.png`: High-resolution SOC threat platform screenshot.
+- `executive-desk-laydown.png`: Photorealistic corporate stationery laydown mockup.
 - `eyeson-logo-inverted.svg`: Official brand logo vector.
 - `eyeson-shield-mark.svg`: Official shield emblem vector.
 - `eyeson-security-seal.svg`: Official cryptographic security seal.
-
-All image paths in `README.md` use clean relative paths (`./assets/...`) so they render automatically both online on GitHub and locally in any markdown viewer.
