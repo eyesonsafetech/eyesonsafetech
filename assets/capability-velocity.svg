@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 200" width="100%" height="100%">
+  <rect width="340" height="200" rx="12" fill="#081438" stroke="#588DD2" stroke-opacity="0.25" stroke-width="1"/>
+  <circle cx="36" cy="36" r="16" fill="#10276B"/>
+  <path d="M 38 27 L 29 37 L 35 37 L 34 45 L 43 35 L 37 35 Z" fill="#588DD2"/>
+  
+  <text x="64" y="34" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="16" font-weight="700">Execution Velocity</text>
+  <text x="64" y="50" fill="#588DD2" font-family="-apple-system, sans-serif" font-size="11" font-weight="600">PRODUCTION SPRINTS &amp; SLAS</text>
+  <line x1="20" y1="68" x2="320" y2="68" stroke="#588DD2" stroke-opacity="0.2"/>
+
+  <text x="20" y="98" fill="#F4F1EE" font-family="-apple-system, sans-serif" font-size="13" fill-opacity="0.9">• Rapid 4–8 Week Production MVP</text>
+  <text x="20" y="122" fill="#F4F1EE" font-family="-apple-system, sans-serif" font-size="13" fill-opacity="0.9">• Complete Client Sovereign IP Transfer</text>
+  <text x="20" y="146" fill="#F4F1EE" font-family="-apple-system, sans-serif" font-size="13" fill-opacity="0.9">• Institutional Support &amp; Uptime SLAs</text>
+  <text x="20" y="170" fill="#588DD2" font-family="'JetBrains Mono', monospace" font-size="10.5">AGILE • CI/CD • 99.99% UPTIME • DOCKER</text>
+</svg>

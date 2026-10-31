@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 140" width="100%" height="100%">
+  <defs>
+    <linearGradient id="statBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050C20"/>
+      <stop offset="100%" stop-color="#081438"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1100" height="140" rx="12" fill="url(#statBg)" stroke="#588DD2" stroke-opacity="0.25" stroke-width="1"/>
+
+  <g transform="translate(0, 0)">
+    <!-- Metric 1: Velocity -->
+    <g transform="translate(75, 42)" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif">
+      <text y="0" fill="#588DD2" font-size="34" font-weight="800" letter-spacing="-0.5">4–8 Wks</text>
+      <text y="24" fill="#FFFFFF" font-size="13" font-weight="700">Production MVP Delivery</text>
+      <text y="42" fill="#C0CFFF" font-size="11">Rapid Sprint Cycles</text>
+    </g>
+
+    <line x1="260" y1="25" x2="260" y2="115" stroke="#588DD2" stroke-opacity="0.2"/>
+
+    <!-- Metric 2: Ownership -->
+    <g transform="translate(375, 42)" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif">
+      <text y="0" fill="#FFFFFF" font-size="34" font-weight="800" letter-spacing="-0.5">100%</text>
+      <text y="24" fill="#FFFFFF" font-size="13" font-weight="700">Sovereign Code Ownership</text>
+      <text y="42" fill="#C0CFFF" font-size="11">Zero Vendor Lock-In</text>
+    </g>
+
+    <line x1="535" y1="25" x2="535" y2="115" stroke="#588DD2" stroke-opacity="0.2"/>
+
+    <!-- Metric 3: Security Rate -->
+    <g transform="translate(650, 42)" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif">
+      <text y="0" fill="#22C55E" font-size="34" font-weight="800" letter-spacing="-0.5">Zero-Day</text>
+      <text y="24" fill="#FFFFFF" font-size="13" font-weight="700">Vulnerability SLA</text>
+      <text y="42" fill="#C0CFFF" font-size="11">DPDP &amp; ISO 27001 Audited</text>
+    </g>
+
+    <line x1="810" y1="25" x2="810" y2="115" stroke="#588DD2" stroke-opacity="0.2"/>
+
+    <!-- Metric 4: Uptime SLA -->
+    <g transform="translate(935, 42)" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif">
+      <text y="0" fill="#588DD2" font-size="34" font-weight="800" letter-spacing="-0.5">99.99%</text>
+      <text y="24" fill="#FFFFFF" font-size="13" font-weight="700">Target Availability SLA</text>
+      <text y="42" fill="#C0CFFF" font-size="11">Resilient Multi-Region Cloud</text>
+    </g>
+  </g>
+</svg>
