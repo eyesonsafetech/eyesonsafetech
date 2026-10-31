@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pLightBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1100" height="240" rx="10" fill="url(#pLightBg)" stroke="#E2E8F0" stroke-width="1"/>
+
+  <g transform="translate(40, 32)">
+    <text x="0" y="0" fill="#10276B" font-family="-apple-system, sans-serif" font-size="15" font-weight="700">Security-Embedded Engineering Lifecycle</text>
+    <text x="0" y="20" fill="#588DD2" font-family="'JetBrains Mono', monospace" font-size="11">PRE-COMMIT VALIDATION TO RUNTIME SOVEREIGN MONITORING</text>
+  </g>
+
+  <!-- 4 Clean Architectural Stages (NO 01, 02, 03 NUMBERS) -->
+  <g transform="translate(40, 75)">
+    <!-- Stage 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="230" height="135" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="20" y="32" fill="#10276B" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Static AST Hardening</text>
+      <text x="20" y="48" fill="#588DD2" font-family="'JetBrains Mono', monospace" font-size="9.5">PRE-COMMIT HOOKS</text>
+      <line x1="20" y1="60" x2="210" y2="60" stroke="#F1F5F9" stroke-width="1"/>
+      <text x="20" y="82" fill="#475569" font-family="-apple-system, sans-serif" font-size="11.5">• Secret Entropy Scanning</text>
+      <text x="20" y="100" fill="#475569" font-family="-apple-system, sans-serif" font-size="11.5">• Semantic AST Flaw Linting</text>
+      <text x="20" y="118" fill="#475569" font-family="-apple-system, sans-serif" font-size="11.5">• Dependency SBOM Auditing</text>
+    </g>
+
+    <path d="M 240 68 L 260 68 M 255 63 L 260 68 L 255 73" stroke="#10276B" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- Stage 2 -->
+    <g transform="translate(270, 0)">
+      <rect width="230" height="135" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="20" y="32" fill="#10276B" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Zero-Trust CI/CD</text>
+      <text x="20" y="48" fill="#588DD2" font-family="'JetBrains Mono', monospace" font-size="9.5">AUTOMATED ENFORCEMENT</text>
+      <line x1="20" y1="60" x2="210" y2="60" stroke="#F1F5F9" stroke-width="1"/>
+      <text x="20" y="82" fill="#475569" font-family="-apple-system, sans-serif" font-size="11.5">• Ephemeral OIDC Access</text>
+      <text x="20" y="100" fill="#475569" font-family="-apple-system, sans-serif" font-size="11.5">• Cosign Image Verification</text>
+      <text x="20" y="118" fill="#475569" font-family="-apple-system, sans-serif" font-size="11.5">• Strict Security Gate Failures</text>
+    </g>
+
+    <path d="M 510 68 L 530 68 M 525 63 L 530 68 L 525 73" stroke="#10276B" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- Stage 3 -->
+    <g transform="translate(540, 0)">
+      <rect width="230" height="135" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="20" y="32" fill="#10276B" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Sovereign Deployment</text>
+      <text x="20" y="48" fill="#588DD2" font-family="'JetBrains Mono', monospace" font-size="9.5">ISOLATED ENCLAVES</text>
+      <line x1="20" y1="60" x2="210" y2="60" stroke="#F1F5F9" stroke-width="1"/>
+      <text x="20" y="82" fill="#475569" font-family="-apple-system, sans-serif" font-size="11.5">• Client-Owned Repositories</text>
+      <text x="20" y="100" fill="#475569" font-family="-apple-system, sans-serif" font-size="11.5">• Micro-Segmented Vnets</text>
+      <text x="20" y="118" fill="#475569" font-family="-apple-system, sans-serif" font-size="11.5">• DPDP Compliance Logs</text>
+    </g>
+
+    <path d="M 780 68 L 800 68 M 795 63 L 800 68 L 795 73" stroke="#10276B" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- Stage 4 -->
+    <g transform="translate(810, 0)">
+      <rect width="210" height="135" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="20" y="32" fill="#10276B" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">SOC Telemetry</text>
+      <text x="20" y="48" fill="#588DD2" font-family="'JetBrains Mono', monospace" font-size="9.5">24/7 OBSERVABILITY</text>
+      <line x1="20" y1="60" x2="190" y2="60" stroke="#F1F5F9" stroke-width="1"/>
+      <text x="20" y="82" fill="#475569" font-family="-apple-system, sans-serif" font-size="11.5">• Real-Time Anomaly Alerts</text>
+      <text x="20" y="100" fill="#475569" font-family="-apple-system, sans-serif" font-size="11.5">• Sub-second Incident SLA</text>
+      <text x="20" y="118" fill="#475569" font-family="-apple-system, sans-serif" font-size="11.5">• Immutable Audit Evidence</text>
+    </g>
+  </g>
+</svg>
